@@ -1113,7 +1113,7 @@ extern "C" {
     pub fn cairo_surface_set_fallback_resolution(
         surface: *mut cairo_surface_t,
         x_pixels_per_inch: c_double,
-        x_pixels_per_inch: c_double,
+        y_pixels_per_inch: c_double,
     );
     pub fn cairo_recording_surface_get_extents(
         surface: *mut cairo_surface_t,
